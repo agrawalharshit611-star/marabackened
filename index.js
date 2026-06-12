@@ -11,8 +11,8 @@ app.get('/instagram',(req,res)=>{
     res.send('its_harshit_insta')
 })
 
-app.get('/login',(req,res)=>{
-    res.send('<h1>now complete your login</h1>')
+// app.get('/login',(req,res)=>{
+//     res.send('<h1>now complete your login</h1>')
 
 })
 app.listen(process.env.PORT, () => {
